@@ -1,0 +1,288 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.tblee, th, td {
+    border-collapse: collapse;
+}
+
+th{
+    text-align: left;
+}
+
+.tblee{
+    border-spacing: 5px;
+    margin: 0 0;
+    font-size: 0.9em;
+    width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tblee thead tr{
+    background-color: crimson;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+.tblee th, .tblee td{
+    padding: 12px 15px;
+}
+
+.tblee tbody tr{
+    border-bottom: 1px solid #dddddd;
+    font-family: 'Merriweather', serif;
+}
+
+.tblee tbody tr:nth-of-type(even){
+    background-color: rgba(202, 204, 206, 0.6);
+    color: crimson;
+    font-weight: 600;
+}
+
+.three{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.tblee{
+    border-bottom: 2px solid crimson;
+}
+
+@media only screen and (max-width: 375px) {
+    .containR{
+        width: 80%;
+    }
+ 
+    .tblee{
+        width: 300px;
+    }
+ }
+
+ @media only screen and (min-width: 900px){
+    .tblee{
+        width: 500px;
+    }
+    .containR{
+        width: 535.66px;
+    }
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.tble, th, td {
+    border-collapse: collapse;
+}
+
+h3{
+    text-align: center;
+}
+
+th{
+    text-align: left;
+}
+
+.chartss{
+    width: 60%;
+    height: 60%;
+    width: 45%;
+    margin-left: 50px;
+    float: left;
+    margin-top: 4%;
+}
+
+.stats{
+    margin-top: 3%;
+}
+
+.containR{
+    width: 45%;
+    float: left;
+}
+
+.tble{
+    border-spacing: 5px;
+    margin: 0 0;
+    font-size: 0.9em;
+    width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tble thead tr{
+    background-color: crimson;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+.tble th, .tble td{
+    padding: 12px 15px;
+}
+
+.tble tbody tr{
+    border-bottom: 1px solid #dddddd;
+    font-family: 'Merriweather', serif;
+}
+
+.tble tbody tr:nth-of-type(even){
+    background-color: rgba(202, 204, 206, 0.6);
+    color: crimson;
+    font-weight: 600;
+}
+
+.three{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.tble{
+    border-bottom: 2px solid crimson;
+}
+
+@media only screen and (max-width: 375px) {
+    .containR{
+        width: 80%;
+    }
+ 
+    .tble{
+        width: 300px;
+    }
+ }
+
+ @media only screen and (min-width: 900px){
+    .tble{
+        width: 450px;
+    }
+    .stats{
+        width: 902px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .chartss{
+        width: 80%;
+    }
+    .tble{
+        width: 80%;
+    }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.tble, th, td {
+    border-collapse: collapse;
+}
+
+h3{
+    text-align: center;
+}
+
+th{
+    text-align: left;
+}
+
+.charts{
+    width: 60%;
+    height: 60%;
+    width: 45%;
+    margin-left: 50px;
+    float: left;
+    margin-top: 4%;
+}
+
+.stats{
+    margin-top: 3%;
+}
+
+.containR{
+    width: 45%;
+    float: left;
+}
+
+.tble{
+    border-spacing: 5px;
+    margin: 0 0;
+    font-size: 0.9em;
+    width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tble thead tr{
+    background-color: crimson;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+.tble th, .tble td{
+    padding: 12px 15px;
+}
+
+.tble tbody tr{
+    border-bottom: 1px solid #dddddd;
+    font-family: 'Merriweather', serif;
+}
+
+.tble tbody tr:nth-of-type(even){
+    background-color: rgba(202, 204, 206, 0.6);
+    color: crimson;
+    font-weight: 600;
+}
+
+.three{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.tble{
+    border-bottom: 2px solid crimson;
+}
+
+@media only screen and (max-width: 375px) {
+    .containR{
+        width: 80%;
+    }
+ 
+    .tble{
+        width: 300px;
+    }
+ }
+
+ @media only screen and (min-width: 900px){
+    .tble{
+        width: 450px;
+    }
+    .stats{
+        width: 902px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .charts{
+        width: 80%;
+    }
+    .tble{
+        width: 80%;
+    }
+}
+
+@media only screen and (width: 768px){
+    .tbl{
+        width: 100%;    
+    }
+    .containR{
+        width: 100%;
+        float: none;
+    }
+}
